@@ -168,8 +168,11 @@ HEADER-MENU
 ======================================================================================================================================================== */
 
 .mob-menu {
-  display: flex;
-
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
 }
 .is-open {
@@ -181,6 +184,7 @@ HEADER-MENU
   display: flex;
   flex-direction: column;
   height: 100%;
+  position: relative;
   margin: 0 auto;
   padding: 72px 16px 40px 16px;
 }
@@ -203,34 +207,45 @@ HEADER-MENU
 }
 
 .nav-menu {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 40px;
   margin-bottom: auto;
 }
+.menu-nav-link-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 .nav-link-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 36px;
+  line-height: 40px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
 .nav-link-haader-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 36px;
+  line-height: 40px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.address-menu-icone {
-  display: flex;
-  flex-direction: column;
-}
-.team-icone-list-menu {
+
+.icone-list-menu {
   display: flex;
   gap: 40px;
 }
-
+.address-menu {
+  margin-bottom: 48px;
+}
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+  display: none;
+}
 /* ========================================================================================================================================================
 HERO
 ======================================================================================================================================================== */
