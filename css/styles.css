@@ -329,7 +329,7 @@ HERO
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .button-service {
   display: flex;
@@ -377,19 +377,17 @@ HERO
     }
   }
   .hero-container {
-    gap: 36px;
-  }
-  .hero-name {
-    width: 496px;
-    height: 120px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    margin: 0;
+    .hero-name {
+      width: 496px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 36px;
+    }
   }
   .button-service {
     margin: 0 auto;
@@ -478,7 +476,7 @@ Benefits
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0 auto;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -539,7 +537,7 @@ Team
   text-transform: capitalize;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -585,14 +583,14 @@ Team
   color: #434455;
   text-align: center;
   margin: 0;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .team-icone-list {
   display: flex;
   justify-content: center;
   margin: 0;
   gap: 24px;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .team-list-lincs {
   width: 40px;
@@ -626,7 +624,7 @@ Team
   .team-nema {
     display: block;
     margin: 0;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .team-list {
     margin: 0;
@@ -651,8 +649,7 @@ Team
     gap: 32px;
   }
   .team-nema {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
 }
 /* ========================================================================================================================================================
@@ -674,7 +671,7 @@ Portfolio
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -735,7 +732,7 @@ Portfolio
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .variety {
@@ -830,7 +827,7 @@ Footer
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-social-links {
   display: flex;
@@ -856,7 +853,7 @@ Footer
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-list-link {
   display: flex;
@@ -889,6 +886,7 @@ Footer
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .subscribe-form {
   display: flex;
@@ -897,7 +895,7 @@ Footer
 .subscribe-form-label {
   display: flex;
   justify-content: center;
-  padding-top: 16px;
+  margin-bottom: 16px;
 }
 .subscribe-form-input {
   background: #2e2f42;
@@ -925,7 +923,6 @@ Footer
 .subscribe-button-container {
   display: flex;
   justify-content: center;
-  padding-top: 16px;
 }
 .subscribe-button {
   font-weight: 500;
@@ -974,7 +971,7 @@ Footer
     justify-content: flex-start;
   }
   .page-footer-lincs {
-    padding-left: 24px;
+    margin-left: 24px;
   }
 }
 @media screen and (min-width: 1158px) {
